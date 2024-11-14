@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2015-2019 LunarG, Inc. -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{7fcd1aec-9af2-4e62-9f03-ce6501b75d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function">
+      <UniqueIdentifier>{4bb6dfcb-9816-49a6-abbb-a883ca825d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\platform">
+      <UniqueIdentifier>{7864b8e7-8d2c-43ef-aada-c6c6ac589fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{e242a83d-60e6-43c9-8f37-97e9321021e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function">
+      <UniqueIdentifier>{7ac00620-9b65-4559-a8ce-37f65b5f51f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{aa117c63-598f-4871-ad62-ef53612663ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{84db20f5-4c75-427d-96d7-c2f36be0c9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{d407a0b8-4b89-4e03-9592-e7a98580ef6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resource">
+      <UniqueIdentifier>{c6310d3a-9d52-47af-bb21-fa94ee7cee25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource">
+      <UniqueIdentifier>{3c0e0911-dbe9-443b-bf61-7f1a5b056394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function\render">
+      <UniqueIdentifier>{e02e86ae-45f5-411a-8c76-5c6aa0a59177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function\render">
+      <UniqueIdentifier>{4006c018-5ead-4659-b48d-f4ab3ef2c0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function\animation">
+      <UniqueIdentifier>{70540df3-e3a4-4532-9f51-e594c7a389bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function\animation">
+      <UniqueIdentifier>{60c25077-21fd-4000-977d-73e370f8a1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thirdparty">
+      <UniqueIdentifier>{bbeb470c-9cfd-484f-9c0d-686bf03d2643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thirdparty">
+      <UniqueIdentifier>{49ab6e31-9660-4eb0-a652-f4353f86cdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function\render\vulkan">
+      <UniqueIdentifier>{b7edab85-a429-4d78-bfbd-730f4b2971db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function\render\vulkan">
+      <UniqueIdentifier>{b1ca31e7-ec31-4bf1-a16f-625d762cad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function\render\pass">
+      <UniqueIdentifier>{eeb8bbcb-0a00-401b-8461-569f6448fe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function\render\pass">
+      <UniqueIdentifier>{1a2ad4cf-5131-4fb9-8bc1-e37f32c5800a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowSystem.cpp">
+      <Filter>Source Files\function</Filter>
+    </ClCompile>
+    <ClCompile Include="renderSystem.cpp">
+      <Filter>Source Files\function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files\function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="model_loader.cpp">
+      <Filter>Source Files\thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkan_swapChain.cpp">
+      <Filter>Source Files\function\render\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkan_device.cpp">
+      <Filter>Source Files\function\render\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkan_RHI.cpp">
+      <Filter>Source Files\function\render\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="windowSystem.h">
+      <Filter>Header Files\function</Filter>
+    </ClInclude>
+    <ClInclude Include="renderSystem.h">
+      <Filter>Header Files\function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files\function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_loader.h">
+      <Filter>Header Files\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_swapChain.h">
+      <Filter>Header Files\function\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_RHI.h">
+      <Filter>Header Files\function\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_device.h">
+      <Filter>Header Files\function\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LGameEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

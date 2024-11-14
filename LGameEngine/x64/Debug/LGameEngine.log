@@ -1,0 +1,14 @@
+﻿  engine.cpp
+  GLM_GTX_hash requires C++11 standard library support
+C:\Users\LaiX\Desktop\tasks\CLearn\LGameEngine\LGameEngine_Vulkan\LGameEngine\engine.cpp(25,37): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\LGameEngine\LGameEngine_Vulkan\LGameEngine\engine.cpp(28,43): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\LGameEngine\LGameEngine_Vulkan\LGameEngine\engine.cpp(34,35): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
+  main.cpp
+  GLM_GTX_hash requires C++11 standard library support
+  renderSystem.cpp
+  GLM_GTX_hash requires C++11 standard library support
+  shader.cpp
+  vulkan_swapChain.cpp
+  windowSystem.cpp
+  正在生成代码...
+  LGameEngine.vcxproj -> C:\Users\LaiX\Desktop\tasks\CLearn\LGameEngine\LGameEngine_Vulkan\x64\Debug\LGameEngine.exe
